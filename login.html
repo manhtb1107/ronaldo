@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký & Đăng Nhập</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="form-container">
+                <form id="registerForm" class="form hidden">
+                    <h2>Đăng Ký</h2>
+                    <input type="text" id="registerUsername" placeholder="Tên đăng nhập" required>
+                    <input type="password" id="registerPassword" placeholder="Mật khẩu" required>
+                    <input type="password" id="registerConfirmPassword" placeholder="Xác nhận mật khẩu" required>
+                    <button type="submit">Đăng Ký</button>
+                    <p>Đã có tài khoản? <a href="#" id="switchToLogin">Đăng nhập</a></p>
+                </form>
+                <form id="loginForm" class="form">
+                    <h2>Đăng Nhập</h2>
+                    <input type="text" id="loginUsername" placeholder="Tên đăng nhập" required>
+                    <input type="password" id="loginPassword" placeholder="Mật khẩu" required>
+                    <button type="submit"><a href="index.html" >Đăng nhập</a></button>
+                    <p>Chưa có tài khoản? <a href="#" id="switchToRegister">Đăng ký</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

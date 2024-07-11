@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUY MANH SHOP</title>
+    <link rel="stylesheet" href="trangcon.css"> </head>
+    
+<body>
+    <header>
+        <div class="container">
+            <div class="content__header">
+                <div class="logo__header">
+                    <img src="logo.jpg" alt="">
+                </div>
+                <div class="menu__header">
+                    <nav>
+                        <ul class="nav__link">
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li><a href="">Giới thiệu</a></li>
+                            <li><a href="">Sản phẩm</a></li>
+                            <li><a href="">Liên hệ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="A">
+                    <a href="/login.html">Đăng nhập</a> | 
+                    <a href="/login.html">Đăng ký</a>
+                  </div>
+                <div class="card__head">
+                    <div class="card" id="popup_card">
+                        <img src="Group 16.png" alt="">
+                        <span>3</span>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="product-details">
+            <div class="product-images">
+                <img id="mainImage" src="/Img (2).png" alt="Ảnh sản phẩm chính">
+                <div class="thumbnail-images">
+                    <img src="/Img (4).png" alt="Ảnh nhỏ 1" onmouseover="changeImage('Img (4).png')">
+                    <img src="/Img (7).png" alt="Ảnh nhỏ 2" onmouseover="changeImage('Img (7).png')">
+                    <img src="/Img (7).png" alt="Ảnh nhỏ 2" onmouseover="changeImage('Img (1).png')">
+                    <img src="/Img (3).png" alt="Ảnh nhỏ 2" onmouseover="changeImage('Img (3).png')">
+                    </div>
+            </div>
+            <div class="product-info">
+                <h2>Túi xách </h2>
+                <p class="price">Giá: <span class="original-price">200.000đ</span></p> 
+                <button class="add-to-cart">Thêm vào giỏ hàng</button>
+
+                <h3>Thông tin sản phẩm:</h3>
+                <p>Chất liệu da cao cấp, thiết kế hiện đại</p>
+
+                <h3>Mô tả chi tiết:</h3>
+                <p> <i>Ưu điểm : </i></p>
+                <li>Nhẹ, dễ đeo, chống thấm nước</li>
+                <li>Sức chứa vừa đủ để các đồ cá nhân nhỏ gọn</li>
+                <li>Đủ đựng được laptop 13 inch cho học sinh, sinh viên </li>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function changeImage(src) {
+            document.getElementById("mainImage").src = src;
+        }
+    </script>
+</body>
+</html>
